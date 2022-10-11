@@ -19,6 +19,12 @@ public class UserService {
 	}
 
 	public int 회원수정(UpdateReqDto dto) {
+		
+		return -1;
+	}
+	
+	public int 아이디중복체크(String username) {
+		
 		return -1;
 	}
 }
