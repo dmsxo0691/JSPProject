@@ -1,4 +1,4 @@
-package model;
+package domain.reply;
 
 import java.sql.Timestamp;
 

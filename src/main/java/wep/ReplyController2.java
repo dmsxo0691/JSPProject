@@ -1,4 +1,4 @@
-package controller;
+package wep;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/reply")
-public class BoardController extends HttpServlet {
+@WebServlet("/user")
+public class ReplyController2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public BoardController() {
+	public ReplyController2() {
 		super();
 	}
 

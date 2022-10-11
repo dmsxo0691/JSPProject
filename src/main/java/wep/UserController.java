@@ -1,4 +1,4 @@
-package controller;
+package wep;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
