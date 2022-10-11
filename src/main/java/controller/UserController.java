@@ -30,7 +30,14 @@ public class UserController extends HttpServlet {
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String cmd = request.getParameter("cmd");
-
+		
+		// http"//localhost:8080/blog/user?cmd=loginForm
+		if(cmd.equals("loginForm")) {
+			//서비스 호출
+			
+		}else if(cmd.equals("login")) {
+			//서비스 호출
+		}
 	}
 
 }
